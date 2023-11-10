@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/script.js" defer></script>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Монтажно-контрольные приспособления и инструмент, методы контроля качества монтажа
+    </title>
+</head>
+    <body>
+        <div class="black_header">
+            <h1>
+                Монтажно-контрольные приспособления и <br> инструмент, методы контроля качества монтажа
+            </h1>
+            <div class="links_black_header">
+                <a href="../../../index.html">На главную</a>
+                <a class="disabled_button" href="#">Назад</a>
+            </div>
+        </div>
+        <div style="margin-top: 25px;" class="head_text">
+            <div  class="questions" id="question_number_1">
+                <h2><span>5. </span>Сопоставьте названия с элементами штангенциркуля.  
+                </h2>
+            </div>
+            <div class="number_marker">
+                <img onclick="showPopUp()" style="cursor: pointer;" src="./content/description.svg" alt="description">
+                <p><b class="number_description">5/10</b></p>
+            </div>
+        </div>
+        <div class="main_window">
+            <div class="body-inner">
+                <div class="drag3">
+                    <div class="drag-inner">
+                        <div class="left-col" id="left-col"></div>
+                        <div class="img" id="img"></div>
+                        <div class="right-col" id="right-col"></div>
+                    </div>
+                    <div class="row2" id="row2" index="row"></div>
+                    <div class="main_buttons">
+                        <div class="step_marker">
+
+                        </div>
+                        <div class="buttons_div">
+                            <button id="check_button_0" onclick="location.href='../javascript_quiz_app_4/index.html'">
+                                Назад
+                            </button>
+                            <button id="check_button_1" onclick="checkAnwser3()">
+                                Ответить
+                            </button>
+                            <button id="check_button_2" onclick="reloadPageFunc()" class="disabled_button">
+                                Повторить
+                            </button>
+                            <button id="check_button_3" class="disabled_button" onclick="location.href='../javascript_quiz_app_6/index.html'">
+                                Далее
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup2" class="popup close">
+            <div class="popup_body">
+                <div class="popup_content">
+                    <div class="popup_header">
+                        <h3> </h3>
+                        <button onclick="closePopUp()" id="close_popup_button_2"><img src="./content/close.svg" alt="close"></button>
+                    </div>
+                    <div class="popup_text">
+                        <div id="popup_txt_1"> 
+                            <h3>1. Ознакомьтесь с правилами безопасной работы.</h3>
+                            <h3>2. Ознакомьтесь с механическими измерительными инструментами.</h3>
+                            <h3>3. Установите соответствие между классом механического измерительного инструмента и его назначением.</h3>
+                            <h3>4. Соотнесите вид по назначению прибора с его названием.</h3>
+                            <h3>5. Сопоставьте названия с элементами штангенциркуля.</h3>
+                            <h3>6. Ознакомьтесь с материалами о микрометре.</h3>
+                            <h3>7. Впишите названия элементов микрометра.</h3>
+                            <h3>8. Ознакомьтесь с материалами о нутрометре, угломере и щупе.</h3>
+                            <h3>9. Сопоставьте название инструмента с его изображением.</h3>
+                            <h3>10. Укажите, где изображен инструмент под названием «щуп».</h3>
+                            <h3>11. Ознакомьтесь с материалами о поверочных линейках</h3>
+                            <h3>12. Ознакомьтесь с материалами о поверочных линейках</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
